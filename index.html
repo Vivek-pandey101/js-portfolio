@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f42611a533.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h2>Vivek Pandey</h2>
+        <div class="inputType">
+          <input type="search" />
+          <button>Search</button>
+        </div>
+        <div class="mode">
+          <abbr title="Dark-Mode"
+            ><button class="enable" id="dark">☪</button></abbr
+          >
+          <abbr title="Light-Mode"
+            ><button class="disable" id="light">☀</button></abbr
+          >
+        </div>
+        <div class="anchors">
+          <a href="#">Home</a>
+          <a href="news.html">News</a>
+          <a href="login.html">Login</a>
+        </div>
+      </div>
+    </header>
+    <section class="intro">
+      <div class="name">
+        <h1>I am <span>Vivek Kumar Pandey</span></h1>
+        <br />
+        <p>This is my official porfolio.</p>
+        <a
+          href="VIVEK KUMAR PANDEY.pdf"
+          id="resume"
+          style="display: none"
+        ></a>
+        <button id="download">My Resume</button>
+      </div>
+      <div id="images">
+        <img id="photo" src="profilephoto.jpg" alt="" />
+      </div>
+    </section>
+    <section>
+      <h2>Vivek Pandey</h2>
+    </section>
+    <footer>
+      <div class="card-footer">
+        <i id="github" class="fab fa-github"></i>
+        <p>&copy; 2024 My Website</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+      const github = document.getElementById('github');
+      github.addEventListener('click', ()=>{
+        window.open('https://www.github.com/Vivek-pandey101', '_blank');
+      })
+    </script>
+  </body>
+</html>

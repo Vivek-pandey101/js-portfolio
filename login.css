@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e063f9;
+}
+.container{
+    margin-top: 10%;
+    box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+    height: 400px;
+    width: 400px;
+    background: white;
+}
+.loginField{
+    display: none;
+}
+.container h1{
+    text-align: center;
+    padding-top: 15px;
+}
+.container .inputs{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.container .inputs input{
+    height: 35px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    padding: 15px;
+}
+.container .inputs2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+.container .inputs2 a{
+    text-decoration: none;
+}
+.container .inputs2 button{
+    width: 70px;
+    border: none;
+    height: 25px;
+    background: rgb(151, 151, 151);
+    border-radius: 6px;
+}
+.container .inputs2 button:hover{
+    background: gray;
+}
+.container .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.container .buttons button{
+    height: 30px;
+    width: 90px;
+    border-radius: 30px;
+    border: none;
+}
+.container2{
+    margin-top: 10%;
+    box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+    height: 400px;
+    width: 400px;
+    background: white;
+}
+.signupField{
+    display: none;
+}
+.container2 h1{
+    text-align: center;
+    padding-top: 15px;
+}
+.container2 .inputs{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.container2 .inputs input{
+    height: 35px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    padding: 15px;
+}
+.container2 .inputs2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2 .inputs2 a{
+    text-decoration: none;
+}
+.container2 .inputs2 button{
+    width: 70px;
+    border: none;
+    height: 25px;
+    background: rgb(151, 151, 151);
+    border-radius: 6px;
+}
+.container2 .inputs2 button:hover{
+    background: gray;
+}
+.container2 .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.container2 .buttons button{
+    height: 30px;
+    width: 90px;
+    border-radius: 30px;
+    border: none;
+}
